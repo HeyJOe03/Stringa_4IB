@@ -15,8 +15,11 @@ int main() {
 	Stringa_4IB d(arr);
 
 	Stringa_4IB e;
-	//cin >> e;
-	//cout << e << endl;
+
+	cout << "inserisci una parola: ";
+	cin >> e;
+	log("la parola che hai inserito e': ");
+	cout << e << endl;
 
 	cout << "COSTRUTTORI E OPERATORE <<: " << endl;
 	cout << "a: " << a << " b: " << b << " c: " << c << " d: " << d << " e: " << e << endl;
